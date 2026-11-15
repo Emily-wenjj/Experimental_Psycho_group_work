@@ -1,0 +1,21 @@
+# 1. 忽略庞大的 PsychoPy 环境（绝对不上传）
+PsychoPy/
+
+# 2. 忽略实验生成的数据文件
+*.csv
+*.xlsx
+*.log
+*.psydat
+data/
+
+# 3. 忽略 PsychoPy 自动生成的编译文件和网页版代码
+*_lastrun.py
+*.js
+*.html
+*.css  <-- 加上这行，把那些网页样式文件也屏蔽掉
+
+# 4. 忽略系统及编辑器产生的垃圾文件
+Thumbs.db
+Desktop.ini
+.DS_Store
+.vscode/
