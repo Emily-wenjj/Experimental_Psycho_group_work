@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2026.2.5">
+  <Settings>
+    <Param val="use prefs" valType="str" updates="None" name="Audio lib"/>
+    <Param val="" valType="str" updates="None" name="Completed URL"/>
+    <Param val="auto" valType="str" updates="None" name="Data file delimiter"/>
+    <Param val="'data/' + expInfo['participant'] + '_' + expName + '_' + expInfo['date']" valType="code" updates="None" name="Data filename"/>
+    <Param val="True" valType="bool" updates="None" name="Enable Escape"/>
+    <Param val="Thank you for your patience." valType="str" updates="None" name="End Message"/>
+    <Param val="{'participant':'f&quot;{randint(0, 999999):06.0f}&quot;', 'session':'001'}" valType="code" updates="None" name="Experiment info"/>
+    <Param val="True" valType="bool" updates="None" name="Force stereo"/>
+    <Param val="True" valType="bool" updates="None" name="Full-screen window"/>
+    <Param val="" valType="str" updates="None" name="HTML path"/>
+    <Param val="" valType="str" updates="None" name="Incomplete URL"/>
+    <Param val="testMonitor" valType="str" updates="None" name="Monitor"/>
+    <Param val="[]" valType="list" updates="None" name="Resources"/>
+    <Param val="False" valType="bool" updates="None" name="Save csv file"/>
+    <Param val="False" valType="bool" updates="None" name="Save excel file"/>
+    <Param val="False" valType="bool" updates="None" name="Save hdf5 file"/>
+    <Param val="True" valType="bool" updates="None" name="Save log file"/>
+    <Param val="True" valType="bool" updates="None" name="Save psydat file"/>
+    <Param val="True" valType="bool" updates="None" name="Save wide csv file"/>
+    <Param val="1" valType="num" updates="None" name="Screen"/>
+    <Param val="True" valType="bool" updates="None" name="Show info dlg"/>
+    <Param val="False" valType="bool" updates="None" name="Show mouse"/>
+    <Param val="height" valType="str" updates="None" name="Units"/>
+    <Param val="" valType="str" updates="None" name="Use version"/>
+    <Param val="(1024, 768)" valType="list" updates="None" name="Window size (pixels)"/>
+    <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+    <Param val="" valType="str" updates="None" name="backgroundImg"/>
+    <Param val="avg" valType="str" updates="None" name="blendMode"/>
+    <Param val="float" valType="str" updates="None" name="clockFormat"/>
+    <Param val="{'thisRow.t': 'priority.CRITICAL', 'expName': 'priority.LOW'}" valType="dict" updates="None" name="colPriority"/>
+    <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+    <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+    <Param val="warning" valType="code" updates="None" name="consoleLoggingLevel"/>
+    <Param val="formal" valType="str" updates="None" name="expName"/>
+    <Param val="" valType="str" updates="None" name="expVersion"/>
+    <Param val="on Sync" valType="str" updates="None" name="exportHTML"/>
+    <Param val="None" valType="str" updates="None" name="eyetracker"/>
+    <Param val="" valType="code" updates="None" name="frameRate"/>
+    <Param val="Attempting to measure frame rate of screen, please wait..." valType="str" updates="None" name="frameRateMsg"/>
+    <Param val="PsychToolbox" valType="str" updates="None" name="keyboardBackend"/>
+    <Param val="info" valType="code" updates="None" name="logging level"/>
+    <Param val="True" valType="bool" updates="None" name="measureFrameRate"/>
+    <Param val="MIDDLE_BUTTON" valType="list" updates="None" name="mgBlink"/>
+    <Param val="CONTINUOUS" valType="str" updates="None" name="mgMove"/>
+    <Param val="0.5" valType="num" updates="None" name="mgSaccade"/>
+    <Param val="1" valType="code" updates="None" name="runMode"/>
+    <Param val="False" valType="bool" updates="None" name="rush"/>
+    <Param val="time" valType="str" updates="None" name="sortColumns"/>
+    <Param val="pyglet" valType="str" updates="None" name="winBackend"/>
+  </Settings>
+  <Routines>
+    <Routine name="test">
+      <RoutineSettingsComponent name="test" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="test" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <CodeComponent name="code" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="my_overall_mean_jitter = (((np.random.random() - 0.5) * 2) * 0.2);&amp;#10;weights_of_sampler = np.array(wms_dic[sti_base_type][sti_cluster_number][&quot;w&quot;]);&amp;#10;means_of_sampler = ((np.array(wms_dic[sti_base_type][sti_cluster_number][&quot;m&quot;]) / scale) + my_overall_mean_jitter);&amp;#10;sds_of_sampler = (np.array(wms_dic[sti_base_type][sti_cluster_number][&quot;s&quot;]) / scale);&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="&amp;#10;# 1. 定义画笔（屏幕的横坐标 x）&amp;#10;x_axis = np.linspace(-0.5, 0.5, 200)&amp;#10;all_pdf_lines = []&amp;#10;&amp;#10;# 2. 遍历字典，生成 20 条线&amp;#10;for base_type in range(6):&amp;#10;    for cluster_num in range(1, 5):&amp;#10;        # 提取参数&amp;#10;        w = np.array(wms_dic[base_type][cluster_num]['w'])&amp;#10;        m = np.array(wms_dic[base_type][cluster_num]['m'])&amp;#10;        s = np.array(wms_dic[base_type][cluster_num]['s'])&amp;#10;        &amp;#10;        # 生成函数&amp;#10;        my_pdf = gen_mixture_pdf(w, m, s)&amp;#10;        pdf_points = [(x,my_pdf(x)*0.2-0.3) for x in x_axis]&amp;#10;        line_obj = visual.ShapeStim(win,vertices = pdf_points,lineColor = &quot;blue&quot;,closeShape = False)&amp;#10;        &amp;#10;        # 生成这条线的对象，存入大列表&amp;#10;        all_pdf_lines.append(line_obj)&amp;#10;&amp;#10;# 3. 初始化状态机变量&amp;#10;current_idx = 0" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="# 1. 获取键盘输入&amp;#10;keys = event.getKeys()&amp;#10;&amp;#10;# 2. 处理翻页逻辑&amp;#10;if 'right' in keys:&amp;#10;    current_idx = (current_idx + 1) % len(all_pdf_lines) # 按右键+1，到底了自动回0&amp;#10;if 'left' in keys:&amp;#10;    current_idx = (current_idx - 1) % len(all_pdf_lines) # 按左键-1&amp;#10;if 'escape' in keys:&amp;#10;    core.quit() # 按ESC退出测试&amp;#10;&amp;#10;base_num = current_idx // 4&amp;#10;cluster_num = (current_idx % 4) + 1&amp;#10;text_hint = visual.TextStim(win, text=f&quot;Base: {base_num} | K: {cluster_num} | 按左右键翻页&quot;, pos=(-0.5, 0.4),height = 0.03, color='white')&amp;#10;text_hint.draw()&amp;#10;&amp;#10;# 4. 画出当前的分布曲线&amp;#10;all_pdf_lines[current_idx].draw()" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <KeyboardComponent name="key_resp" plugin="None">
+        <Param val="'left','right','space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="settings">
+      <RoutineSettingsComponent name="settings" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="settings" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <CodeComponent name="general_setting" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="from scipy.stats import wasserstein_distance&amp;#10;&amp;#10;from scipy.stats import binom, norm&amp;#10;import numpy as np&amp;#10;import pandas as pd&amp;#10;import itertools&amp;#10;import math&amp;#10;&amp;#10;os.chdir(_thisDir)&amp;#10;&amp;#10;win.mouseVisible = False&amp;#10;current_mon = win.monitor&amp;#10;x = np.concatenate((np.array([-5]),np.linspace(-1,+1,1001), np.array([5])))&amp;#10;#selection_bar_width = 30&amp;#10;#selection_bar_height = 4.5&amp;#10;&amp;#10;&amp;#10;exp_general = {'n_dots_per_fresh': 1,&amp;#10;               'n_frame_per_fresh': 10,&amp;#10;               'n_frame_per_empty': 10,&amp;#10;#               'sample_bar_width': 0.003,&amp;#10;#               'sample_bar_length': 0.1,&amp;#10;               'sample_circ_width': 0.02,&amp;#10;               'sample_alpha': 1,&amp;#10;               'norm_fixation_color': [255,255,255],&amp;#10;               'comparison_total': 150,&amp;#10;               'comparison_alpha': 0.3,&amp;#10;               'comparsion_distance': 3,&amp;#10;               'jitter': 0.6,&amp;#10;               'response_limit': 5,&amp;#10;               'scale': 5&amp;#10;               }&amp;#10;&amp;#10;if np.random.random() &gt; 0.5:&amp;#10;    thisExp.addData('conf', 'low_con_left')&amp;#10;    instruction_img = 'low_con_left_ins.png'&amp;#10;    conf_text = 'a=没信心 , d＝有信心'&amp;#10;    low_conf_left = True&amp;#10;else:&amp;#10;    thisExp.addData('conf', 'low_con_right')&amp;#10;    instruction_img = 'low_con_right_ins.png'&amp;#10;    conf_text = 'a=有信心 , d＝没信心'&amp;#10;    low_conf_left = False&amp;#10;&amp;#10;&amp;#10;wms_dic= {0: {1: {'m': [0.0], 's': [0.19887041996880728], 'w': [1]},&amp;#10;     2: {'m': [0.28378378378378377, -0.0945945945945946],&amp;#10;         's': [0.02702702702702703, 0.13011721575751145],&amp;#10;         'w': [0.25, 0.75]},&amp;#10;     3: {'m': [0.06756756756756757, 0.28378378378378377, -0.17567567567567569],&amp;#10;         's': [0.02702702702702703, 0.02702702702702703, 0.07279215563327314],&amp;#10;         'w': [0.25, 0.25, 0.5]},&amp;#10;     4: {'m': [-0.24324324324324326,&amp;#10;               -0.10810810810810811,&amp;#10;               0.06756756756756757,&amp;#10;               0.28378378378378377],&amp;#10;         's': [0.02702702702702703,&amp;#10;               0.02702702702702703,&amp;#10;               0.02702702702702703,&amp;#10;               0.02702702702702703],&amp;#10;         'w': [0.25, 0.25, 0.25, 0.25]}},&amp;#10; 1: {1: {'m': [0.0], 's': [0.20357400895852606], 'w': [1]},&amp;#10;     2: {'m': [-0.1858108108108108, 0.1858108108108108],&amp;#10;         's': [0.07281841796196412, 0.09190303569056915],&amp;#10;         'w': [0.5, 0.5]},&amp;#10;     3: {'m': [0.09797297297297297, 0.27364864864864863, -0.1858108108108108],&amp;#10;         's': [0.02702702702702703, 0.02702702702702703, 0.07280569111078869],&amp;#10;         'w': [0.25, 0.25, 0.5]},&amp;#10;     4: {'m': [-0.2533783783783784,&amp;#10;               -0.11824324324324324,&amp;#10;               0.09797297297297297,&amp;#10;               0.27364864864864863],&amp;#10;         's': [0.02702702702702703,&amp;#10;               0.02702702702702703,&amp;#10;               0.02702702702702703,&amp;#10;               0.02702702702702703],&amp;#10;         'w': [0.25, 0.25, 0.25, 0.25]}},&amp;#10; 2: {1: {'m': [0.0], 's': [0.19417320835791227], 'w': [1]},&amp;#10;     2: {'m': [0.27364864864864863, -0.09121621621621621],&amp;#10;         's': [0.02702702702702703, 0.13011562715899094],&amp;#10;         'w': [0.25, 0.75]},&amp;#10;     3: {'m': [-0.2533783783783784, 0.27364864864864863, -0.010135135135135136],&amp;#10;         's': [0.02702702702702703, 0.02702702702702703, 0.07276652341636755],&amp;#10;         'w': [0.25, 0.25, 0.5]},&amp;#10;     4: {'m': [-0.2533783783783784,&amp;#10;               -0.0777027027027027,&amp;#10;               0.057432432432432436,&amp;#10;               0.27364864864864863],&amp;#10;         's': [0.02702702702702703,&amp;#10;               0.02702702702702703,&amp;#10;               0.02702702702702703,&amp;#10;               0.02702702702702703],&amp;#10;         'w': [0.25, 0.25, 0.25, 0.25]}},&amp;#10; 3: {1: {'m': [0.0], 's': [0.20358812495401726], 'w': [1]},&amp;#10;     2: {'m': [-0.1858108108108108, 0.1858108108108108],&amp;#10;         's': [0.09190656699148862, 0.07277259310637003],&amp;#10;         'w': [0.5, 0.5]},&amp;#10;     3: {'m': [-0.27364864864864863, -0.09797297297297297, 0.1858108108108108],&amp;#10;         's': [0.02702702702702703, 0.02702702702702703, 0.07278745632137709],&amp;#10;         'w': [0.25, 0.25, 0.5]},&amp;#10;     4: {'m': [-0.27364864864864863,&amp;#10;               -0.09797297297297297,&amp;#10;               0.11824324324324324,&amp;#10;               0.2533783783783784],&amp;#10;         's': [0.02702702702702703,&amp;#10;               0.02702702702702703,&amp;#10;               0.02702702702702703,&amp;#10;               0.02702702702702703],&amp;#10;         'w': [0.25, 0.25, 0.25, 0.25]}},&amp;#10; 4: {1: {'m': [0.0], 's': [0.19446182350824087], 'w': [1]},&amp;#10;     2: {'m': [-0.27364864864864863, 0.09121621621621621],&amp;#10;         's': [0.02702702702702703, 0.13006314423279944],&amp;#10;         'w': [0.25, 0.75]},&amp;#10;     3: {'m': [-0.27364864864864863, 0.2533783783783784, 0.010135135135135136],&amp;#10;         's': [0.02702702702702703, 0.02702702702702703, 0.07278682171136365],&amp;#10;         'w': [0.25, 0.25, 0.5]},&amp;#10;     4: {'m': [-0.27364864864864863,&amp;#10;               -0.057432432432432436,&amp;#10;               0.0777027027027027,&amp;#10;               0.2533783783783784],&amp;#10;         's': [0.02702702702702703,&amp;#10;               0.02702702702702703,&amp;#10;               0.02702702702702703,&amp;#10;               0.02702702702702703],&amp;#10;         'w': [0.25, 0.25, 0.25, 0.25]}},&amp;#10; 5: {1: {'m': [0.0], 's': [0.19914499030848157], 'w': [1]},&amp;#10;     2: {'m': [-0.28378378378378377, 0.0945945945945946],&amp;#10;         's': [0.02702702702702703, 0.13007948917521175],&amp;#10;         'w': [0.25, 0.75]},&amp;#10;     3: {'m': [-0.28378378378378377, -0.06756756756756757, 0.17567567567567569],&amp;#10;         's': [0.02702702702702703, 0.02702702702702703, 0.07278438519372651],&amp;#10;         'w': [0.25, 0.25, 0.5]},&amp;#10;     4: {'m': [-0.28378378378378377,&amp;#10;               -0.06756756756756757,&amp;#10;               0.10810810810810811,&amp;#10;               0.24324324324324326],&amp;#10;         's': [0.02702702702702703,&amp;#10;               0.02702702702702703,&amp;#10;               0.02702702702702703,&amp;#10;               0.02702702702702703],&amp;#10;         'w': [0.25, 0.25, 0.25, 0.25]}}}&amp;#10;&amp;#10;def gen_mixture_pdf(weight_list, mean_list, sigma_list):&amp;#10;    assert len(weight_list) == len(mean_list) and len(mean_list) == len(&amp;#10;        sigma_list), 'Please provide equal length weight_list, mean_list, sigma_list'&amp;#10;    assert np.abs(np.sum(weight_list)-1) &lt; 0.01, 'The weight should sum to one'&amp;#10;&amp;#10;    def mixture_pdf(x):&amp;#10;        def gen_single_pdf(weight, mean, sigma):&amp;#10;            def pdf(my_x):&amp;#10;                return weight * norm.pdf(my_x, mean, sigma)&amp;#10;&amp;#10;            return pdf&amp;#10;&amp;#10;        pdf_list = []&amp;#10;        for my_weight, my_mean, my_sigma in zip(weight_list, mean_list, sigma_list):&amp;#10;            pdf_list.append(gen_single_pdf(my_weight, my_mean, my_sigma))&amp;#10;&amp;#10;        each_density = np.array([my_pdf(x) for my_pdf in pdf_list])&amp;#10;&amp;#10;        return np.sum(each_density, axis=0)&amp;#10;&amp;#10;    return mixture_pdf&amp;#10;&amp;#10;def bounded_mixture_rvs(weight_list, mean_list, sigma_list, sample_size, my_range):&amp;#10;    assert len(weight_list) == len(mean_list) and len(mean_list) == len(&amp;#10;        sigma_list), 'Please provide equal length weight_list, mean_list, sigma_list'&amp;#10;    assert np.abs(np.sum(weight_list)-1) &lt; 0.001, 'The weight should sum to one'&amp;#10;&amp;#10;    num_in_each = np.random.multinomial(sample_size, weight_list)&amp;#10;    samples = []&amp;#10;    for mixture_idx, mixture_num in enumerate(num_in_each):&amp;#10;        stuff = norm.rvs(mean_list[mixture_idx], sigma_list[mixture_idx], mixture_num)&amp;#10;        samples.append(stuff)&amp;#10;&amp;#10;    all_samples = np.concatenate(samples)&amp;#10;    all_samples = all_samples[np.logical_and(all_samples &gt; my_range[0], all_samples &lt; my_range[1])]&amp;#10;&amp;#10;    num_resample = sample_size - all_samples.shape[0]&amp;#10;#     print(num_resample)&amp;#10;&amp;#10;    if num_resample  &gt; 0:&amp;#10;        resamples =  bounded_mixture_rvs(weight_list, mean_list, sigma_list, num_resample, my_range)&amp;#10;    else:&amp;#10;        resamples = np.array([])&amp;#10;    return np.random.permutation(np.concatenate((all_samples, resamples)))&amp;#10;&amp;#10;def mixture_rvs(weight_list, mean_list, sigma_list, sample_size):&amp;#10;    assert len(weight_list) == len(mean_list) and len(mean_list) == len(&amp;#10;        sigma_list), 'Please provide equal length weight_list, mean_list, sigma_list'&amp;#10;    assert np.abs(np.sum(weight_list)-1) &lt; 0.01, 'The weight should sum to one'&amp;#10;&amp;#10;    num_in_each = np.random.multinomial(sample_size, weight_list)&amp;#10;&amp;#10;    samples = []&amp;#10;    for mixture_idx, mixture_num in enumerate(num_in_each):&amp;#10;        stuff = norm.rvs(mean_list[mixture_idx], sigma_list[mixture_idx], mixture_num)&amp;#10;        samples.append(stuff)&amp;#10;&amp;#10;    return np.random.permutation(np.concatenate(samples))&amp;#10;&amp;#10;y_of_the_axis_line = -0.2&amp;#10;reference_line = visual.Line(&amp;#10;    win=win, name='reference_line',units='height', &amp;#10;    start=(-(2, 0.5)[0]/2.0, 0), end=(+(2, 0.5)[0]/2.0, 0),&amp;#10;    ori=0, pos=[0,y_of_the_axis_line],&amp;#10;    lineWidth=5, lineColor=[1,1,1], lineColorSpace='rgb',&amp;#10;    fillColor=[1,1,1],&amp;#10;    opacity=1, depth=0.0, interpolate=True)&amp;#10;&amp;#10;&amp;#10;#sti_folder = 'my_sti/' + expInfo['participant'] + '/'&amp;#10;#if not os.path.exists(sti_folder):&amp;#10;#    os.mkdir(sti_folder)&amp;#10;#    os.mkdir(sti_folder + 'stimulus/')&amp;#10;#    os.mkdir(sti_folder + 'comp_sti/')" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="general_setting" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="settings"/>
+    <Routine name="test"/>
+  </Flow>
+</PsychoPy2experiment>
