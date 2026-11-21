@@ -1490,10 +1490,10 @@
     <Routine name="fixation"/>
     <Routine name="sti_present"/>
     <Routine name="fixation"/>
+    <Routine name="check_load"/>
+    <Routine name="empty"/>
     <Routine name="reproduction"/>
     <Routine name="normalization"/>
-    <Routine name="empty"/>
-    <Routine name="check_load"/>
     <Routine name="empty"/>
     <Routine name="end_prac"/>
     <LoopTerminator name="prac1"/>
@@ -1514,10 +1514,10 @@
     <Routine name="fixation"/>
     <Routine name="sti_present"/>
     <Routine name="fixation"/>
+    <Routine name="check_load"/>
+    <Routine name="empty"/>
     <Routine name="reproduction"/>
     <Routine name="normalization"/>
-    <Routine name="empty"/>
-    <Routine name="check_load"/>
     <Routine name="empty"/>
     <Routine name="inter_block_rest"/>
     <Routine name="space_to_start"/>
